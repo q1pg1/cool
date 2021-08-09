@@ -539,7 +539,12 @@ i.material-icons[style*="color:#2196F3"] {
 	color: var(--verified-color) !important
 }
 
-var canvas = document.getElementById("myCanvas");
-var ctx = canvas.getContext("2d");
-ctx.font = "30px Arial";
-ctx.fillText("Vodex - q1pg1",10,50);
+var ctx = document.getElementById('my_canvas').getContext('2d');
+    // fillText(text, x, y, maxWidth )
+    // strokeText(text, x, y, maxWidth )
+    ctx.fillStyle = '#FC0';
+    ctx.font = 'italic bold 56px Arial, sans-serif';
+    ctx.fillText('Text On Canvas', 50, 50, 300);
+    ctx.textAlign = 'start'; // start, end, left, right, center
+    ctx.textBaseline = 'hanging'; // top, middle, bottom, hanging, alphabetic, ideographic
+    ctx.strokeText('Text On Canvas', 50, 50, 300);
