@@ -538,3 +538,8 @@ span > span[style*="color:#000"] {
 i.material-icons[style*="color:#2196F3"] {
 	color: var(--verified-color) !important
 }
+
+var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d");
+ctx.font = "30px Arial";
+ctx.fillText("Vodex - q1pg1",10,50);
