@@ -541,7 +541,13 @@ i.material-icons[style*="color:#2196F3"] {
 
 <html>
 	<body>
-		<div class="circle">1</div>
+		<div class="container">
+  <canvas id="canvas"></canvas>
+  <div id="overlay">
+    <div>Time: <span id="time"></span></div>
+    <div>Angle: <span id="angle"></span></div>
+  </div>
+</div>
 	</body>
 </html>
 
